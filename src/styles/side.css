@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Calistoga&family=Libre+Barcode+128+Text&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Faster+One&family=Honk&family=Merienda:wght@300..900&family=Monoton&family=Press+Start+2P&family=Silkscreen:wght@400;700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Calistoga&family=Libre+Barcode+128+Text&family=Libre+Barcode+39+Extended+Text&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+.sidebar {
+    width: 200px;
+    height: 100%;
+    background-color: #05164b;
+    color: white;
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 10;
+}
+  .sidebar h2 {
+    font-family:"Libre Barcode 128 Text";
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+
+  .hue{
+    margin: 20% 0% 0% 0%;
+  }
+ 
+  .hue button {
+    width: 100%;
+    padding: 10px;
+    background-color: #114dbc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10% 0% 0% 0%;
+}
+
+.hue button:hover {
+    background-color: #e3e3e3;
+    color: #114dbc;
+}
+

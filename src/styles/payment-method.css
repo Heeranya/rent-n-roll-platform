@@ -1,0 +1,122 @@
+.page-container {
+  padding-top: 20px; 
+  padding-bottom: 20px; 
+  background: url('../assets/all-images/pexels-julioneryy-1687147\ \(1\).jpg') no-repeat center center fixed;
+  background-size: cover; 
+  min-height: 100vh; 
+}
+
+.payment-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto; 
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0.2, 0, 0, 0.2); 
+  background: rgba(255, 255, 255, 0.8); 
+}
+
+.payment-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.payment-form h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.payment-method-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.payment-method-buttons button {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.payment-method-buttons button.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.payment-method-buttons button:hover {
+  opacity: 0.9;
+}
+
+.payment-form .form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.9em; 
+}
+
+.payment-form .form-group input,
+.payment-form .form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.payment-form .form-group select {
+  width: calc(50% - 5px);
+  margin-right: 10px; 
+}
+
+.payment-form .expiry {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-form .payment-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.payment-form .payment-buttons .submit-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #28a745;
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.payment-form .payment-buttons .submit-btn:hover {
+  opacity: 0.9;
+}
+
+.optional {
+  font-size: 0.8em;
+  color: #6c757d;
+}
+
+.paypal-section, .google-pay-section {
+  text-align: center;
+  font-size: 1.2em;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .payment-form .form-group select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

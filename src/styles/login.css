@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../assets/all-images/pexels-julioneryy-1687147\ \(1\).jpg'); /* Replace with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  height: 500px;
+  width: 400px;
+  padding: 40px;
+  bottom: 100px;
+  background: rgba(255, 255, 255, 0.8);
+  box-sizing: border-box;
+  box-shadow: 0px 1px 31px -1px rgb(91, 139, 126);
+  border-radius: 10px;
+  transform: translateY(-50%);
+  top: 40%;
+  position: relative;
+}
+
+.heading-login {
+  margin: 0 0 30px;
+  padding: 0;
+  color: blue;
+  text-align: center;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #383838;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  outline: none;
+  background: transparent;
+}
+
+.login-box .user-box input::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  color: rgb(21, 45, 141);
+  transition: 0.5s;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: rgb(91, 139, 126);
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(91, 139, 126),
+              0 0 25px rgb(91, 139, 126),
+              0 0 50px rgb(91, 139, 126),
+              0 0 100px rgb(91, 139, 126);
+}
+
+.sub-main {
+  height: 14vh;
+  width: 20vw;
+  margin: 0px;
+}
+
+.btn-last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-direction: column;
+}

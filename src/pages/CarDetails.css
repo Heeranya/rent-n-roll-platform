@@ -1,0 +1,87 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .section {
+    padding: 40px 0;
+  }
+  
+  /* Car Image and Information */
+  .car__info {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .car__info h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .car__info .rent__price {
+    color: #007bff;
+  }
+  
+  .car__info .section__description {
+    margin-bottom: 10px;
+  }
+  
+  .car__info i {
+    color: #f9a826;
+  }
+  
+  /* Booking Information */
+  .booking-info {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align all children elements */
+  }
+  
+  .booking-info h5 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Book Now Button */
+  .book-now {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 20px; /* Add margin to the top for spacing */
+  }
+  
+  .book-now:hover {
+    background-color: #218838;
+    color: #ffffff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .car__info,
+    .booking-info {
+      margin-bottom: 20px;
+    }
+  }
+  
